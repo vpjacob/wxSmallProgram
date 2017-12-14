@@ -1,0 +1,62 @@
+.container-out {
+  background-color: #b136b9;
+  width: 610rpx;
+  height: 610rpx;
+  margin: 65rpx auto;
+  box-shadow: 10px 10px 10px #871a8e;
+  border-radius: 10px;
+  position: relative;
+}
+
+.container-in {
+  background-color: red;
+  width: 450rpx;
+  height: 450rpx;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 10rpx;
+}
+
+.circle {
+  width: 30rpx;
+  height: 30rpx;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  display: block;
+}
+
+.content-out {
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 10px;
+  display: block;
+  position: absolute;
+}
+
+.imgAward {
+  width: 100rpx;
+  height: 100rpx;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-color: rebeccapurple;
+}
+
+.startBtn {
+  height: 130rpx;
+  width: 130rpx;
+  top: 160rpx;
+  left: 160rpx;
+  position: absolute;
+  text-align: center;
+  line-height: 130rpx;
+  color: red;
+}

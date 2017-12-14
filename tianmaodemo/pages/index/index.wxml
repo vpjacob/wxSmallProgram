@@ -1,0 +1,20 @@
+<view class='container-out'>
+  <view class='circle' wx:for="{{circleList}}" style='top:{{item.topCircle}}rpx; left:{{item.leftCircle}}rpx; background-color: {{(index%2==0)?colorCircleFirst:colorCircleSecond}};'>
+
+  </view>
+
+  <view class='container-in'>
+
+    <view class='content-out' wx:for="{{awardList}}" style='top:{{item.topAward}}rpx;left:{{item.leftAward}}rpx; background-color: {{(index==selectedIndex)?awardSelected:awardUnSelected}};'>
+
+      <image src="{{item.imageAward}}" class='imgAward'>
+      </image>
+
+    </view>
+
+    <view class='startBtn' bindtap='startBtnAction'style=" background-color:{{isRunning?'#e7930a':'#ffe400'}}">开始</view>
+
+  </view>
+
+
+</view>
