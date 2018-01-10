@@ -1,0 +1,14 @@
+<view class='main'>
+<view class='userName'>
+<text>用户名</text>
+<input type="digit" bindinput='userNameInput' placeholder="请输入手机号"/>
+</view>
+<view class='pwd'>
+<text>密码</text>
+<input password bindinput='pwdInput' placeholder='请输入密码'/>
+</view>
+
+<view class='loginButton'>
+<button bindtap='loginAction'> 登录</button>
+</view>
+</view>

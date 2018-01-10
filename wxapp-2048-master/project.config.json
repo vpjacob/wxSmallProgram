@@ -8,9 +8,9 @@
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "1.6.6",
-	"appid": "wx381f07dc14b68fcc",
-	"projectname": "%E4%BB%BF%E5%A4%A9%E7%8C%AB%E6%8A%BD%E5%A5%96f",
+	"libVersion": "1.5.4",
+	"appid": "touristappid",
+	"projectname": "wxapp-2048",
 	"condition": {
 		"search": {
 			"current": -1,

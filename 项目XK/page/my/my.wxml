@@ -1,0 +1,103 @@
+<view class='outBox'>
+  <view class="content-header">
+    <view class='content-header-background-content'>
+      <image src='../../image/my/mineBack.jpg' class='content-header-background'>
+      </image>
+      <view class='iconSettingContainer'>
+        <image class='avartar' src='{{image}}'></image>
+        <view class='megIconBox'>
+          <image class='megIcon' src='../../image/my/mineMessage.png'></image>
+        </view>
+        <view class='settingIconBox'>
+          <image class='settingIcon' src='../../image/my/mineSetting.png'></image>
+        </view>
+        <view class='idContent'>
+          <text class="userinfo-nickname">{{nickName}}</text>
+        </view>
+      </view>
+    </view>
+    <view class='contentContainer'>
+      <view class='detailItem' wx:for='{{headerList}}' style='left:{{item.leftItem}}%;'>
+        <view class='topItem'>
+          0
+          <view class='bottomItem'>
+            {{item.bottomTitle}}
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <button wx:if="{{!isLogin}}" bindtap='loginAction'> 请登录 </button>
+  <block wx:else>
+    <view class='secendSectionBox'>
+      <view class='secendItem' style='left:0%;' bindtap='scanCode'>
+        <image class='secendItemImg' src='../../image/my/mineScan.png'></image>
+        <view class='secendItemText'>扫一扫</view>
+      </view>
+      <view class='secendItem' style='left:25%;' bindtap='showOrderList'>
+        <image class='secendItemImg' src='../../image/my/mineDeal.png'></image>
+        <view class='secendItemText'>订单</view>
+      </view>
+      <view class='secendItem' style='left:50%;'>
+        <image class='secendItemImg' src='../../image/my/mineEgg.png'></image>
+        <view class='secendItemText'>金蛋</view>
+      </view>
+      <view class='secendItem' style='left:75%;'>
+        <image class='secendItemImg' src='../../image/my/mineBuyBack.png'></image>
+        <view class='secendItemText'>回购</view>
+      </view>
+    </view>
+    <view class='thridSectionBox'>
+      <view class='oneList'>
+        <view class='secendItem' style='left:0%;'>
+          <image class='thridItemImg' src='../../image/my/mineDetail.png'></image>
+          <view class='secendItemText'>金币明细</view>
+        </view>
+        <view class='secendItem' style='left:25%;'>
+          <image class='thridItemImg' src='../../image/my/payDetail.png'></image>
+          <view class='secendItemText'>支付明细</view>
+        </view>
+        <view class='secendItem' style='left:50%;'>
+          <image class='thridItemImg' src='../../image/my/exchange.png'></image>
+          <view class='secendItemText'>兑换专区</view>
+        </view>
+        <view class='secendItem' style='left:75%;'>
+          <image class='thridItemImg' src='../../image/my/mineWelfare.png'></image>
+          <view class='secendItemText'>小客福利</view>
+        </view>
+      </view>
+      <view class='twoList'>
+        <view class='secendItem' style='left:0%;'>
+          <image class='thridItemImg' src='../../image/my/mineEquipment.png'></image>
+          <view class='secendItemText'>设备</view>
+        </view>
+        <view class='secendItem' style='left:25%;'>
+          <image class='thridItemImg' src='../../image/my/mineYq.png'></image>
+          <view class='secendItemText'>推荐</view>
+        </view>
+        <view class='secendItem' style='left:50%;'>
+          <image class='thridItemImg' src='../../image/my/mineWl.png'></image>
+          <view class='secendItemText'>物流</view>
+        </view>
+        <view class='secendItem' style='left:75%;'>
+          <image class='thridItemImg' src='../../image/my/mineBuyEgg.png '></image>
+          <view class='secendItemText'>金蛋购买</view>
+        </view>
+      </view>
+      <view class='thridList'>
+        <view class='secendItem' style='left:0%;'>
+          <image class='thridItemImg' src='../../image/my/mineOpinion.png'></image>
+          <view class='secendItemText'>意见</view>
+        </view>
+        <view class='secendItem' style='left:25%;'>
+          <image class='thridItemImg' src='../../image/my/mineCollect.png'></image>
+          <view class='secendItemText'>收藏</view>
+        </view>
+        <view class='secendItem' style='left:50%;'>
+          <image class='thridItemImg' src='../../image/my/mineFriend.png'></image>
+          <view class='secendItemText'>好友管理</view>
+        </view>
+      </view>
+    </view>
+  </block>
+</view>

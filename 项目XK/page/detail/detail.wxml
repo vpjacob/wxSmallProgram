@@ -1,0 +1,44 @@
+<view class='main'>
+
+  <scroll-view scroll-y='true' class='scrollView' bindtap='action'>
+    <view class='topBox'>
+      <swiper autoplay='true' interval='2000' duration='1000' circular='true' class='banner-box' indicator-dots='true'>
+        <block wx:for='{{banner}}'>
+          <swiper-item>
+            <image src='{{"http://www.ppke.cn/" + item.name}}'></image>
+          </swiper-item>
+        </block>
+      </swiper>
+      <text>{{obj.name}}</text>
+      <view class='sub_title'>
+        <text>{{obj.sub_title}}</text>
+      </view>
+      <view class='price-out'>
+        <view class='price'>
+          <text>【优惠价】 ¥{{obj.price_discount}}</text>
+        </view>
+        <view class='price-discount'>
+          <text>¥{{obj.price}}</text>
+        </view>
+      </view>
+
+      <view class='black-line'>s</view>
+
+      <text>{{obj.description}}</text>
+
+      <!--  <text>{{obj.sub_title}}</text>
+      <text>{{obj.title}}</text>  -->
+
+
+    </view>
+    <image src='{{detailImg}}' mode='widthFix'></image>
+  </scroll-view>
+
+  <view class='toolBar'>
+    <view class='toolBar-price'>
+      <text>价格：¥{{obj.price_discount}}</text>
+    </view>
+    <view class='buyNow' bindtap='buyAction'>立刻购买</view>
+  </view>
+
+</view>

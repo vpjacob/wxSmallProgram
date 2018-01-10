@@ -1,0 +1,31 @@
+.main {
+  background-color: gainsboro;
+}
+
+.list {
+  height: 450rpx;
+  width: 47%;
+  display: inline-table;
+  text-align: center;
+  background-color: white;
+  margin: 10rpx 10rpx auto;
+}
+
+.item-image image {
+  width: 350rpx;
+  height: 300rpx;
+}
+
+.item-name {
+  font-size: 15px;
+}
+
+.item-price_discount {
+  font-size: 17px;
+  color: red;
+}
+
+.item-buy_count {
+  font-size: 15px;
+  color: gray;
+}

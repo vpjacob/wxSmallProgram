@@ -23,7 +23,7 @@ Page({
     colorCircleFirst: '#FFDF2F',
     colorCircleSecond: '#FE4D32',
     selectedIndex:0,
-    awardSelected:'#ffe400',
+    awardSelected:'#54FF9F',
     awardUnSelected:'#F5F0FC',
     isRunning:false
 

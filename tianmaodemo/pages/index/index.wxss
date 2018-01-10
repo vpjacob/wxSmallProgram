@@ -9,7 +9,7 @@
 }
 
 .container-in {
-  background-color: red;
+   background-color: wheat; 
   width: 450rpx;
   height: 450rpx;
   margin: auto;

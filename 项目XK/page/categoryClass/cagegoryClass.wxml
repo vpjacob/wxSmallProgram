@@ -1,0 +1,21 @@
+<view class='main'>
+  <view class='list' wx:for='{{productList}}'>
+    <!-- {{item.name}} -->
+    <view class='item' bindtap='clickAction' data-id='{{item.id}}'>
+      <view class='item-image'>
+        <image src='{{"http://www.ppke.cn"+item.img_url}}' mode='scaleToFill'>
+        </image>
+      </view>
+      <view class='item-name'>
+        {{item.name}}
+      </view>
+      <view class='item-price_discount'>
+        {{"¥"+item.price_discount}}
+      </view>
+      <view class='item-buy_count'>
+        {{item.buy_count+"人已购买"}}
+      </view>
+    </view>
+
+  </view>
+</view>

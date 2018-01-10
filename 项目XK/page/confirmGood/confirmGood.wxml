@@ -1,0 +1,60 @@
+<view class='main'>
+  <view class='goodsDetail'>
+    <view class='goodsDetail-text' style='margin-left: 5%;'>商品详情</view>
+    <view class='line'>a</view>
+    <view class='goodsInfo'>
+      <view class='goodsInfo-img'>
+        <image src='{{"http://www.ppke.cn/" + product.img_url}}'></image>
+      </view>
+      <view class='goodsInfo-title'>{{product.name}}</view>
+      <view class='goodsInfo-price'>{{product.price_discount}}元</view>
+    </view>
+  </view>
+  <view class='goodsType'>
+    <view class='goodsType-type'>
+      <view class='goodsType-typeText'>规格</view>
+      <view class='goodsType-typeChoese'>选择</view>
+    </view>
+    <view class='line'>a</view>
+    <view class='goodsType-count'>
+      <view class='goodsType-countText'>数量</view>
+      <view class='goodsType-countInput'>数目</view>
+    </view>
+  </view>
+  <view class='paySection'>
+    微信支付
+  </view>
+  <view class='addressSection'>
+    <view class='name-phone-box'>
+      <view class='name-item'>{{address.name}}</view>
+      <view class='phone-item'>{{address.phone}}</view>
+    </view>
+    <view class='address-box'>
+      <view class='province_name'>{{address.province_name}}</view>
+      <view class='city_name'>{{address.city_name}}</view>
+      <view class='province_name'>{{address.district_name}}</view>
+      <view class='city_name'>{{address.address}}</view>
+    </view>
+  </view>
+  <view class='detailCount'>
+    
+    <view class='detailCount-top'>
+    <view class='detailCount-top-left'>运费</view>
+    <view class='detailCount-top-right'>+0</view>
+    </view>
+    <view class='detailCount-bottom'>
+    <view class='detailCount-bottom-left'>商品金额</view>
+    <view class='detailCount-bottom-right'>+0</view>
+    </view>
+  </view>
+
+  <view class='totalCount'>
+    <view class='totalCount-left'>
+      共计：110元
+    </view>
+    <view class='totalCount-right' bindtap='buyNowAction'>
+      立刻支付
+    </view>
+  </view>
+
+</view>

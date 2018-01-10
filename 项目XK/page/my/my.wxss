@@ -1,0 +1,174 @@
+.outBox{
+  background: #ECECEC;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.content-header{
+  width: 750rpx;
+  height: 430rpx;
+  position: relative;
+}
+
+.content-header-background{
+  width: 750rpx;
+  height: 300rpx;
+}
+
+.iconSettingContainer{
+  position: absolute;
+  width: 100%;
+  height: 140rpx;
+  top: 80rpx;
+  left: 0rpx;
+  line-height: 130rpx;
+}
+
+.avartar{
+  height: 100%;
+  width: 20%;
+  left: 5%;
+  position: absolute;
+  border-radius: 50%;
+
+}
+
+.idContent{
+  width: 25%;
+  height: 100%;
+  left: 30%;
+  position: absolute;
+}
+
+
+.megIconBox{
+position: absolute;
+width: 80rpx;
+height: 100%;
+left: 70%;
+}
+
+.settingIconBox{
+position: absolute;
+width: 80rpx;
+height: 100%;
+left: 85%;
+margin: auto; 
+}
+
+ .megIcon{
+width: 100%;
+height: 80rpx;
+margin: 0 auto;
+position: absolute;
+line-height: 80rpx;
+}
+
+.settingIcon{
+width: 100%;
+height: 80rpx;
+margin: 0 auto;
+position: absolute;
+} 
+
+.contentContainer{
+  top: 300rpx;
+  width: 750rpx;
+  height: 130rpx;
+   position: absolute; 
+   margin: 0 auto; 
+ background-color: white;
+}
+
+.detailItem{
+  text-align: center;
+  width: 187.5rpx;
+  height: 130rpx;
+  position: absolute;
+  margin: auto;
+  font-size: 15px;
+}
+
+.topItem{
+line-height: 65rpx;
+}
+
+.bottomItem{
+line-height: 65rpx;
+}
+
+
+.secendSectionBox{
+  width: 100%;
+  height: 160rpx;
+   margin: 30rpx 0 auto;
+  position: relative;
+  top: 0rpx;
+  background-color: white;
+}
+
+.secendItem{
+  width: 25%;
+  height: 100%;
+   margin: 0 auto;  
+  /* background-color: red; */
+  position: absolute;
+  text-align: center; 
+ 
+}
+
+.secendItemImg{
+  left: 30%;
+  width: 80rpx;
+  height: 80rpx;
+  position: absolute; 
+  top: 5%;
+}
+
+
+
+.secendItemText{
+  width: 100%;
+  height: 80rpx;
+  position: absolute;
+  line-height:80rpx;
+  text-align: center; 
+  top: 80rpx;
+  font-size: 15px;
+}
+
+
+/* 第三组 box */
+.thridSectionBox{
+  width: 100%;
+  height: 480rpx;
+   margin: 30rpx 0 auto;
+  position: relative;
+  top: 0rpx;
+  background-color: white;
+}
+
+.twoList{
+width: 100%;
+  height: 160rpx;
+   /* background-color: yellow;  */
+   /* margin: 30rpx 0 auto; */
+  position: absolute;
+  top: 180rpx;
+}
+
+.thridList{
+  width: 100%;
+  height: 160rpx;
+  position: absolute;
+  top: 360rpx;
+}
+
+.thridItemImg{
+  left: 38%;
+  width: 60rpx;
+  height: 60rpx;
+  position: absolute; 
+  top: 5%;
+}

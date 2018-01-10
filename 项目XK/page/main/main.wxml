@@ -1,0 +1,11 @@
+<view class='main'>
+
+  <view class='categoryBox' wx:for='{{typeList}}'>
+    <view class='item' bindtap='tapAction' data-id='{{item.id}}'>
+      <view class='item-image'>
+        <image src='{{"http://www.ppke.cn" + item.image_url}}' mode='scaleToFill'></image>
+      </view>
+      <text>{{item.name}}</text>
+    </view>
+  </view>
+</view>
